@@ -1,0 +1,11 @@
+# Site settings
+title: Collections of this Kind
+email: 
+description: > 
+  A blog
+ 
+# Build settings
+markdown: kramdown
+future: true
+# plugins:
+#  - jekyll-feed
