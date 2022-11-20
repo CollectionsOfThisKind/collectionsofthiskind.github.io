@@ -252,10 +252,10 @@ function parseDate(str)
     case "10":
         monthstr="-Oct-";
         break;
-    case 11:
+    case "11":
         monthstr="-Nov-";
         break;
-    case 12:
+    case "12":
         monthstr="-Dec-";
         break;
 	default:
