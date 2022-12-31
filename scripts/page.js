@@ -10,7 +10,7 @@
 /**
 * Default text color to return to.
 */
-var defaultColor="#777777";
+var defaultColor="#555555";
 
 
 /**
