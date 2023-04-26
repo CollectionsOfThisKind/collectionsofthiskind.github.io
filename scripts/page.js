@@ -238,3 +238,44 @@ function parseDate(str)
 	
 	return day + monthstr + year;
 }
+
+
+
+function showReveals()
+{
+	revealsUnsorted=document.getElementsByClassName("reveal");
+	hidesUnsorted=document.getElementsByClassName("hide");
+    
+	for (var i=0;i<revealsUnsorted.length;i++)
+	{   
+		revealsUnsorted[i].style.display="block";
+	} 
+	
+    for (var i=0;i<hidesUnsorted.length;i++)
+	{   
+		hidesUnsorted[i].style.display="none";
+	} 
+    
+	document.getElementsByClassName("revealson")[0].style.display="none";
+	document.getElementsByClassName("revealsoff")[0].style.display="inline";	
+}
+
+
+function hideReveals()
+{
+	revealsUnsorted=document.getElementsByClassName("reveal");
+	hidesUnsorted=document.getElementsByClassName("hide");
+    
+	for (var i=0;i<revealsUnsorted.length;i++)
+	{   
+		revealsUnsorted[i].style.display="none";
+	} 
+    
+    for (var i=0;i<hidesUnsorted.length;i++)
+	{   
+		hidesUnsorted[i].style.display="block";
+	} 
+	
+	document.getElementsByClassName("revealson")[0].style.display="inline";
+	document.getElementsByClassName("revealsoff")[0].style.display="none";	
+}
