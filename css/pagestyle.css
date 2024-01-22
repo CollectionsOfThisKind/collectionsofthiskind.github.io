@@ -60,7 +60,7 @@ h2
 	margin-bottom: 10px;
 	margin-top: 10px;
 	font-family: 'Cormorant Garamond', Serif, monospace;
-	font-size: 1.8em;
+	font-size: 1.4em;
 	font-style: italic;
 	text-align: left;
 }
@@ -165,6 +165,26 @@ li
 {
 	margin-top: 10px;
 	margin-bottom: 10px;
+	font-family: Lato, Serif, monospace;
+}
+
+dl {
+	margin-top: 20px;
+	margin-bottom: 70px;
+	    width: 500px;
+}
+
+dt {
+		margin-top: 10px;
+	margin-bottom: 7px;
+	font-family: Lato, Serif, monospace;
+
+}
+
+dd {
+		margin-top: 7px;
+	margin-bottom: 20px;
+	margin-left: 10px;
 	font-family: Lato, Serif, monospace;
 }
 
