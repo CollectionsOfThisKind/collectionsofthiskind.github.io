@@ -156,10 +156,12 @@ ul.compact
 	margin-bottom: 10px;
 }
 
+
 ul.sublist {
         list-style-type: square;
         margin-left: 40px;
 }
+
 
 li
 {
@@ -524,6 +526,14 @@ div.line
 	z-index: -2;
 }
 
+table.data td, table.data th {
+	border: 1px solid #cccccc;
+	padding: 10px;
+}
+
+table.data td {
+	font-style: italic;
+}
 
 /*------------themes------------*/
 
