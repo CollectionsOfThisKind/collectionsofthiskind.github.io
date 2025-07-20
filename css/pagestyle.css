@@ -150,6 +150,18 @@ ul
 	margin-bottom: 70px;
 }
 
+ul.inpage {
+	width: calc(33em - 0px);
+	list-style-type: none;
+	margin-left: 0px;
+}
+
+ul.inpage li {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	line-height: 150%;
+}
+
 ul.compact
 {
 	margin-top: 10px;
@@ -158,8 +170,8 @@ ul.compact
 
 
 ul.sublist {
-        list-style-type: square;
-        margin-left: 40px;
+	list-style-type: square;
+	margin-left: 40px;
 }
 
 
